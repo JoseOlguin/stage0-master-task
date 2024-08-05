@@ -14,9 +14,9 @@ public class Animal {
     public String getDescription() {
         return
                 "This animal is mostly " + color +
-                        ". It has " + numberOfPaws +
-                        " " + (numberOfPaws == 1 ? "paw" : "paws") +
-                        " and " + (hasFur ? "a" : "no") + " fur.";
+                ". It has " + numberOfPaws +
+                " " + (numberOfPaws == 1 ? "paw" : "paws") +
+                " and " + (hasFur ? "a" : "no") + " fur.";
     }
 
     public static void main(String[] args) {
